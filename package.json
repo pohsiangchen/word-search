@@ -1,0 +1,11 @@
+{
+  "name": "word-search",
+  "version": "1.0.0",
+  "description": "Search word from 2D array",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Chen",
+  "license": "ISC"
+}
