@@ -31,4 +31,8 @@ False
 2.  Move to the appropriate directory: `cd <YOUR_PROJECT_NAME>`<br />
 3.  Run `npm install` in order to install dependencies<br />
 4.  Edit `board.txt` and `word.txt` for try run<br />
+    or edit `package.json` start script to load specific word file
+    ```
+    "start": "node ./src/index.js d:/word.txt"
+    ```
 5.  Run `npm run start` to check result in consult
