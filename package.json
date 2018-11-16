@@ -4,8 +4,18 @@
   "description": "Search word from 2D array",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./src/index.js d:/workspace/word-search/word.txt",
+    "test": "jest"
+  },
+  "repository": {
+    "url": "https://github.com/pohsiangchen/word-search.git"
   },
   "author": "Robert Chen",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
 }
